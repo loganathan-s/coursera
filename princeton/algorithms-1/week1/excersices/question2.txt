@@ -1,0 +1,9 @@
+(seed = 529058)
+Give the id[] array that results from the following sequence of 9 union
+operations on a set of 10 items using the weighted quick-union algorithm from lecture.
+
+    5-8 5-9 0-4 3-1 9-7 8-6 4-1 7-3 2-3 
+
+Recall: when joining two trees of equal size, our weighted quick union convention is to
+make the root of the second tree point to the root of the first tree. Also, our weighted
+quick union algorithm uses union by size (number of nodes), not union by height.

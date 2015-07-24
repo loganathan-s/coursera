@@ -1,0 +1,11 @@
+Answer
+
+QuickFindUF x = new QuickFindUF(10);
+x.union(0,5);
+x.union(3,0);
+x.union(6,0);
+x.union(9,0);
+x.union(8,4);
+x.union(7,9);
+x.show();
+5 1 2 5 4 5 5 5 4 5

@@ -1,0 +1,8 @@
+(seed = 230905)
+Give the id[] array that results from the following sequence of 6 union
+operations on a set of 10 items using the quick-find algorithm.
+
+    3-0 5-4 9-2 7-0 4-6 2-0 
+
+Recall: our quick-find convention for the union operation p-q is to change id[p]
+(and perhaps some other entries) but not id[q].
